@@ -29,7 +29,7 @@ function App() {
         {/* <Route path="/intermediate" exact component={Intermediate}/> */}
         {/* <Route path="/contact" exact component={Contact}/> */}
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
