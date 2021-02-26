@@ -18,8 +18,8 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
-      <Navbar toggle={toggle} />
+      {/* <GlobalStyle /> */}
+      {/* <Navbar toggle={toggle} /> */}
       test
       {/* <DropDown isOpen={isOpen} toggle={toggle} /> */}
       <Switch>
