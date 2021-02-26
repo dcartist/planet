@@ -12,9 +12,9 @@ import Contact from './Pages/Contact'
 function App() {
   const [isOpen, setIsOpen] = useState(false)
 
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  }
+  // const toggle = () => {
+  //   setIsOpen(!isOpen)
+  // }
 
   return (
     <>
@@ -22,13 +22,11 @@ function App() {
       {/* <Navbar toggle={toggle} /> */}
       test
       {/* <DropDown isOpen={isOpen} toggle={toggle} /> */}
-      <Switch>
-        {/* <Route path="/" exact component={Home}/> */}
+              {/* <Route path="/" exact component={Home}/> */}
         {/* <Route path="/about" exact component={About}/> */}
         {/* <Route path="/beginner" exact component={Beginner}/> */}
         {/* <Route path="/intermediate" exact component={Intermediate}/> */}
         {/* <Route path="/contact" exact component={Contact}/> */}
-      </Switch>
       {/* <Footer /> */}
     </>
   );
