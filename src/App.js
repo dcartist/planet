@@ -20,13 +20,14 @@ function App() {
     <>
       <GlobalStyle />
       <Navbar toggle={toggle} />
+      test
       {/* <DropDown isOpen={isOpen} toggle={toggle} /> */}
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/about" exact component={About}/>
-        <Route path="/beginner" exact component={Beginner}/>
+        {/* <Route path="/" exact component={Home}/> */}
+        {/* <Route path="/about" exact component={About}/> */}
+        {/* <Route path="/beginner" exact component={Beginner}/> */}
         {/* <Route path="/intermediate" exact component={Intermediate}/> */}
-        <Route path="/contact" exact component={Contact}/>
+        {/* <Route path="/contact" exact component={Contact}/> */}
       </Switch>
       <Footer />
     </>
