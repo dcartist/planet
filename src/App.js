@@ -17,7 +17,7 @@ function App() {
   // }
 
   return (
-    <>
+    <div>
       {/* <GlobalStyle /> */}
       {/* <Navbar toggle={toggle} /> */}
       test
@@ -28,7 +28,7 @@ function App() {
         {/* <Route path="/intermediate" exact component={Intermediate}/> */}
         {/* <Route path="/contact" exact component={Contact}/> */}
       {/* <Footer /> */}
-    </>
+    </div>
   );
 }
 
